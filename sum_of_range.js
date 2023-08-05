@@ -10,6 +10,7 @@ function range(start, end, step = 1) {
     let temp = start;
     start = end;
     end = temp;
+    step = step * -1;
   }
 
   for (let i = start; i <= end; i += step) {
@@ -31,4 +32,4 @@ function sum(arr) {
   return sum;
 }
 
-console.log(sum(range(1, 5)));
+console.log(range(5, 2, -1));

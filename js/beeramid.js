@@ -38,4 +38,4 @@ const beeramid = function(bonus, price) {
   return levels;
 }
 
-module.exports(beeramid);
+module.exports = beeramid;
